@@ -9,14 +9,14 @@ using TheCursedMod.TheCursedModCode.Powers;
 namespace TheCursedMod.TheCursedModCode.Cards;
 
 /// <summary>
-/// 지옥불 뿜기(Hellfire Breathing) - 사용불가 카드를 뽑을 경우 적 전체에게 피해를 8 줍니다. (강화 시 피해 11)
+/// 지옥불 뿜기(Hellfire Breathing) - 사용불가 카드를 뽑을 경우 적 전체에게 피해를 6 줍니다. (강화 시 피해 10)
 /// </summary>
 public sealed class HellfireBreathing() : TheCursedModCard(1, CardType.Power, CardRarity.Uncommon, TargetType.Self)
 {
     protected override IEnumerable<string> ExtraRunAssetPaths => NGroundFireVfx.AssetPaths;
 
     protected override IEnumerable<DynamicVar> CanonicalVars => [
-        new PowerVar<HellfireBreathingPower>(8m)
+        new PowerVar<HellfireBreathingPower>(6m)
     ];
 
     protected override IEnumerable<IHoverTip> ExtraHoverTips => [
@@ -30,6 +30,6 @@ public sealed class HellfireBreathing() : TheCursedModCard(1, CardType.Power, Ca
 
     protected override void OnUpgrade()
     {
-        DynamicVars["HellfireBreathingPower"].UpgradeValueBy(3m);
+        DynamicVars["HellfireBreathingPower"].UpgradeValueBy(4m);
     }
 }

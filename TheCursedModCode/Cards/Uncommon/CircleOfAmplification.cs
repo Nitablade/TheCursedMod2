@@ -7,14 +7,12 @@ using MegaCrit.Sts2.Core.Localization.DynamicVars;
 namespace TheCursedMod.TheCursedModCode.Cards;
 
 /// <summary>
-/// 증폭의 마법진(Circle of Amplification) - 마법진 : 파워 카드를 사용할 때 마다 에너지를 2 얻습니다. 휘발성.
-/// 강화 시 에너지 3.
+/// 증폭의 마법진(Circle of Amplification) - 마법진 : 파워 카드를 사용할 때 마다 에너지를 1 얻습니다.
+/// 강화 시 보존.
 /// </summary>
 public sealed class CircleOfAmplification() : CircleCard(CardRarity.Uncommon)
 {
-    public override IEnumerable<CardKeyword> CanonicalKeywords => [CardKeyword.Ethereal];
-
-    protected override IEnumerable<DynamicVar> CanonicalVars => [new EnergyVar(2)];
+    protected override IEnumerable<DynamicVar> CanonicalVars => [new EnergyVar(1)];
 
     protected override IEnumerable<IHoverTip> ExtraHoverTips => [
         HoverTipFactory.FromKeyword(TheCursedModCode.Keywords.Circle),
@@ -32,6 +30,6 @@ public sealed class CircleOfAmplification() : CircleCard(CardRarity.Uncommon)
 
     protected override void OnUpgrade()
     {
-        DynamicVars.Energy.UpgradeValueBy(1m);
+        AddKeyword(CardKeyword.Retain);
     }
 }

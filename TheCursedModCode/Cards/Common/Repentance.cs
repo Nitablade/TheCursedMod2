@@ -11,8 +11,8 @@ namespace TheCursedMod.TheCursedModCode.Cards;
 
 /// <summary>
 /// 뉘우침(Repentance) - 방어도를 5 얻습니다.
-/// 업보가 있다면, 대신 13 얻습니다.
-/// 강화 시 5→8 / 13→17
+/// 업보가 있다면, 대신 14 얻습니다.
+/// 강화 시 5→8 / 14→18
 /// </summary>
 public sealed class Repentance() : TheCursedModCard(1, CardType.Skill, CardRarity.Common, TargetType.None)
 {
@@ -20,7 +20,7 @@ public sealed class Repentance() : TheCursedModCard(1, CardType.Skill, CardRarit
 
     protected override IEnumerable<DynamicVar> CanonicalVars => [
         new BlockVar(5, ValueProp.Move),
-        new BlockVar("KarmaBlock", 13, ValueProp.Move)
+        new BlockVar("KarmaBlock", 14, ValueProp.Move)
     ];
 
     protected override IEnumerable<IHoverTip> ExtraHoverTips => [

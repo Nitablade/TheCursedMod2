@@ -118,7 +118,7 @@
   "THECURSEDMOD-CELERITY.description": "[gold]Rite[/gold] : Gain {CalculationExtra:diff()} [gold]Dexterity[/gold] for each [gold]Circle[/gold] card in [gold]Hand[/gold].{InCombat:cond:\n(Gain {CalculatedDexterity} [gold]Dexterity[/gold].)|}",
 
   "THECURSEDMOD-ARCANE_BINDING.title": "Arcane Binding",
-  "THECURSEDMOD-ARCANE_BINDING.description": "Gain {Block:diff()} [gold]Block[/gold].\n[gold]Rite[/gold] : [gold]Retain[/gold] [gold]Circle[/gold] cards in your [gold]Hand[/gold] this turn.",
+  "THECURSEDMOD-ARCANE_BINDING.description": "Gain {Block:diff()} [gold]Block[/gold].\n[gold]Rite[/gold] : [gold]Retain[/gold] [gold]Circle[/gold] cards in your [gold]Hand[/gold] for {CircleRetainPower:diff()} turns.",
 
   "THECURSEDMOD-WICKED_WARD.title": "Wicked Ward",
   "THECURSEDMOD-WICKED_WARD.description": "[gold]Rite[/gold] : Give ALL other players {Block:diff()} [gold]Block[/gold].",

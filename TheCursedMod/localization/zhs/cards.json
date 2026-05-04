@@ -118,7 +118,7 @@
  "THECURSEDMOD-CELERITY.description":"[gold]咒仪[/gold]:[gold]手牌[/gold]中每有一张[gold]魔法阵[/gold]牌，获得{CalculationExtra:diff()}点[gold]敏捷[/gold]。{InCombat:cond:\n(获得{CalculatedDexterity}点[gold]敏捷[/gold]。)|}",
 
  "THECURSEDMOD-ARCANE_BINDING.title":"奥术束缚",
- "THECURSEDMOD-ARCANE_BINDING.description":"获得{Block:diff()}点[gold]格挡[/gold]。\n[gold]咒仪[/gold]:本回合[gold]保留[/gold]你[gold]手牌[/gold]中的所有[gold]魔法阵[/gold]牌。",
+ "THECURSEDMOD-ARCANE_BINDING.description":"获得{Block:diff()}点[gold]格挡[/gold]。\n[gold]咒仪[/gold]:[gold]保留[/gold]你[gold]手牌[/gold]中的所有[gold]魔法阵[/gold]牌{CircleRetainPower:diff()}回合。",
 
  "THECURSEDMOD-WICKED_WARD.title":"邪恶护罩",
  "THECURSEDMOD-WICKED_WARD.description":"[gold]咒仪[/gold]:给予所有其他玩家{Block:diff()}点[gold]格挡[/gold]。",

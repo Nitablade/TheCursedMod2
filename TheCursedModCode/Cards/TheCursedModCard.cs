@@ -69,8 +69,10 @@ public abstract class TheCursedModCard(
         var baseCurses = ModelDb.CardPool<CurseCardPool>()
             .GetUnlockedCards(target.UnlockState, target.RunState.CardMultiplayerConstraint)
             .Where(c => c.CanBeGeneratedByModifiers && c is not Guilty)  // Guilty is meaningless in combat
+            .Where(c => !c.Id.Entry.Contains('-'))  // Exclude curses from Mods
             .ToList();
         var curseCandidates = baseCurses
+            .Concat(baseCurses)  // Double the chances for base curses to be selected
             .Append(ModelDb.Card<Enthralled>())
             .Append(ModelDb.Card<BadLuck>())
             .Append(ModelDb.Card<PoorSleep>())
@@ -82,24 +84,32 @@ public abstract class TheCursedModCard(
         var randomCurse = rngSource.RunState.Rng.CombatCardGeneration.NextItem(curseCandidates)!;
 
         var cloverRelic = target.Relics.OfType<FourLeafCloverCharmRelic>().FirstOrDefault();
+        CardModel card;
         if (cloverRelic != null)
         {
             cloverRelic.Flash();
-            await Dregs.CreateAndAddToHand(target, 1);
-            return;
+            card = combatState!.CreateCard<Dregs>(target);
+        }
+        else
+        {
+            card = combatState!.CreateCard(randomCurse, target);
         }
 
-        var curseCard = combatState!.CreateCard(randomCurse, target);
-        if (pile == PileType.Draw)
+        // Dregs가 Hand에 생성될 시 RecyclableWastePower 여부에 따라 특별한 처리가 필요.
+        if (card is Dregs dregs && pile == PileType.Hand)
+        {
+            await dregs.AddToHand(addedByPlayer: addedByPlayer);
+        }
+        else if (pile == PileType.Draw)
         {
             CardCmd.PreviewCardPileAdd(
                 await CardPileCmd.AddGeneratedCardToCombat(
-                    curseCard, pile, addedByPlayer: addedByPlayer, position: CardPilePosition.Random));
+                    card, pile, addedByPlayer: addedByPlayer, position: CardPilePosition.Random));
             await Cmd.Wait(0.5f);
         }
         else
         {
-            await CardPileCmd.AddGeneratedCardToCombat(curseCard, pile, addedByPlayer: addedByPlayer);
+            await CardPileCmd.AddGeneratedCardToCombat(card, pile, addedByPlayer: addedByPlayer);
         }
     }
 

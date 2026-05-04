@@ -51,7 +51,7 @@ public class CircleRetainPower : TheCursedModPower
             var pcs = Owner.Player?.PlayerCombatState;
             if (pcs != null)
                 foreach (var card in pcs.AllCards.OfType<CircleCard>())
-                    if (card.Enchantment is not Steady)
+                    if (card.Enchantment is not Steady && !card.CanonicalKeywords.Contains(CardKeyword.Retain))
                         CardCmd.RemoveKeyword(card, CardKeyword.Retain);
         }
 

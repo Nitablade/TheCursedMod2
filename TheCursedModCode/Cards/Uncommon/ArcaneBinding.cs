@@ -10,13 +10,16 @@ using TheCursedMod.TheCursedModCode.Powers;
 namespace TheCursedMod.TheCursedModCode.Cards;
 
 /// <summary>
-/// 비전 속박(Arcane Binding) - 방어도를 14 얻습니다. 의례 : 이번 턴에 손에 있는 마법진들을 보존합니다. (강화 시 방어도 18)
+/// 비전 속박(Arcane Binding) - 방어도를 8 얻습니다. 의례 : 2턴 동안 손에 있는 마법진들을 보존합니다. (강화 시 방어도 10, 3턴)
 /// </summary>
 public sealed class ArcaneBinding() : RiteCard(2, CardType.Skill, CardRarity.Uncommon, TargetType.None)
 {
     public override bool GainsBlock => true;
 
-    protected override IEnumerable<DynamicVar> CanonicalVars => [new BlockVar(14, ValueProp.Move)];
+    protected override IEnumerable<DynamicVar> CanonicalVars => [
+        new BlockVar(8, ValueProp.Move),
+        new PowerVar<CircleRetainPower>(2)
+    ];
 
     protected override IEnumerable<IHoverTip> ExtraHoverTips => [
         HoverTipFactory.FromKeyword(TheCursedModCode.Keywords.Rite),
@@ -30,11 +33,12 @@ public sealed class ArcaneBinding() : RiteCard(2, CardType.Skill, CardRarity.Unc
 
     protected override async Task OnRiteEffect(PlayerChoiceContext choiceContext, CardPlay play)
     {
-        await PowerCmd.Apply<CircleRetainPower>(Owner.Creature, 1, Owner.Creature, this);
+        await PowerCmd.Apply<CircleRetainPower>(Owner.Creature, DynamicVars["CircleRetainPower"].BaseValue, Owner.Creature, this);
     }
 
     protected override void OnUpgrade()
     {
-        DynamicVars.Block.UpgradeValueBy(4m);
+        DynamicVars.Block.UpgradeValueBy(2m);
+        DynamicVars["CircleRetainPower"].UpgradeValueBy(1m);
     }
 }
