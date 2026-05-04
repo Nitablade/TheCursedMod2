@@ -40,11 +40,8 @@ public abstract class TheCursedModCard(
     /// 카드가 "사용불가"인지 확인합니다.
     /// HasUnplayableKeyword 이거나 마법진(CircleCard) 카드인 경우 사용불가로 간주합니다.
     /// </summary>
-    public static bool IsUnplayableCard(CardModel c)
-    {
-        c.CanPlay(out var reason, out _);
-        return reason.HasFlag(UnplayableReason.HasUnplayableKeyword) || c is CircleCard;
-    }
+    public static bool IsUnplayableCard(CardModel c) =>
+        c.Keywords.Contains(CardKeyword.Unplayable);
 
 
     /// <summary>

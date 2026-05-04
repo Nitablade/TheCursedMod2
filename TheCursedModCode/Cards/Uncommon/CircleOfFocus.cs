@@ -17,9 +17,10 @@ public sealed class CircleOfFocus() : CircleCard(CardRarity.Uncommon)
         new EnergyVar("CostThreshold", 3)
     ];
 
+    public override IEnumerable<CardKeyword> CanonicalKeywords => [CardKeyword.Unplayable];
+
     protected override IEnumerable<IHoverTip> ExtraHoverTips => [
         HoverTipFactory.FromKeyword(TheCursedModCode.Keywords.Circle),
-        HoverTipFactory.FromKeyword(CardKeyword.Unplayable),
         EnergyHoverTip
     ];
 

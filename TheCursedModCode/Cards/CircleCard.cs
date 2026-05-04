@@ -24,8 +24,6 @@ public abstract class CircleCard(CardRarity rarity)
     /// </summary>
     public int TheCursedMod_CircleTriggerCount { get; private set; }
 
-    protected override bool IsPlayable => false;
-
     protected sealed override Task OnPlay(PlayerChoiceContext choiceContext, CardPlay play)
         => Task.CompletedTask;
 

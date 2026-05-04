@@ -1,9 +1,23 @@
 using Godot;
 using HarmonyLib;
 using MegaCrit.Sts2.Core.Nodes.Screens.GameOverScreen;
+using MegaCrit.Sts2.Core.Nodes.Screens.Shops;
 using TheCursedMod.TheCursedModCode.Nodes;
 
 namespace TheCursedMod.TheCursedModCode.Patches;
+
+/// <summary>
+/// NMerchantCharacter.PlayAnimation이 자식 노드 "SpineSprite"를 MegaSpineBinding으로 감싸려 하는데,
+/// 우리 씬은 TextureRect이므로 ValidateBoundObject에서 crash가 발생합니다.
+/// SNMerchantCharacter 인스턴스일 때 PlayAnimation을 skip합니다.
+/// </summary>
+[HarmonyPatch(typeof(NMerchantCharacter), "PlayAnimation")]
+public static class MerchantPlayAnimationPatch
+{
+    [HarmonyPrefix]
+    private static bool SkipForStaticTexture(NMerchantCharacter __instance)
+        => __instance is not SNMerchantCharacter;
+}
 
 /// <summary>
 /// When the game over screen appears while the player died outside combat

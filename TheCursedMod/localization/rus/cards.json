@@ -118,7 +118,7 @@
   "THECURSEDMOD-CELERITY.description": "[gold]Обряд[/gold]:\nДает {CalculationExtra:diff()} [gold]ловкости[/gold] за каждый [gold]Круг[/gold] в [gold]руке[/gold].{InCombat:cond:\n(Дает {CalculatedDexterity} [gold]ловкости[/gold])|}",
 
   "THECURSEDMOD-ARCANE_BINDING.title": "Мистическая привязь",
-  "THECURSEDMOD-ARCANE_BINDING.description": "Дает {Block:diff()} [gold]защиты[/gold].\n[gold]Обряд[/gold]: [gold]Круги[/gold] в [gold]руке[/gold] [gold]оставляются[/gold] {CircleRetainPower:diff()} хода.",
+  "THECURSEDMOD-ARCANE_BINDING.description": "Дает {Block:diff()} [gold]защиты[/gold].\n[gold]Обряд[/gold]:\n[gold]Круги[/gold] в [gold]руке[/gold] [gold]оставляются[/gold] в течение {CircleRetainPower:diff()} ходов.",
 
   "THECURSEDMOD-WICKED_WARD.title": "Барьер злобы",
   "THECURSEDMOD-WICKED_WARD.description": "[gold]Обряд[/gold]:\nДает другим игрокам {Block:diff()} [gold]защиты[/gold].",

@@ -18,10 +18,11 @@ public sealed class CircleOfRitual() : CircleCard(CardRarity.Uncommon)
         new CardsVar(1),
     ];
 
+    public override IEnumerable<CardKeyword> CanonicalKeywords => [CardKeyword.Unplayable];
+
     protected override IEnumerable<IHoverTip> ExtraHoverTips => [
         HoverTipFactory.FromKeyword(TheCursedModCode.Keywords.Circle),
-        HoverTipFactory.FromKeyword(TheCursedModCode.Keywords.Rite),
-        HoverTipFactory.FromKeyword(CardKeyword.Unplayable)
+        HoverTipFactory.FromKeyword(TheCursedModCode.Keywords.Rite)
     ];
 
     protected override bool ShouldTrigger(CardPlay cardPlay) => false;

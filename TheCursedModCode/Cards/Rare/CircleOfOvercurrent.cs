@@ -20,9 +20,10 @@ public sealed class CircleOfOvercurrent() : CircleCard(CardRarity.Rare)
         new DynamicVar("DamageIncrement", 1m)
     ];
 
+    public override IEnumerable<CardKeyword> CanonicalKeywords => [CardKeyword.Unplayable];
+
     protected override IEnumerable<IHoverTip> ExtraHoverTips => [
-        HoverTipFactory.FromKeyword(TheCursedModCode.Keywords.Circle),
-        HoverTipFactory.FromKeyword(CardKeyword.Unplayable)
+        HoverTipFactory.FromKeyword(TheCursedModCode.Keywords.Circle)
     ];
 
     protected override bool ShouldTrigger(CardPlay cardPlay) =>

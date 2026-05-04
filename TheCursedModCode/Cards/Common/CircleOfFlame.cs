@@ -21,9 +21,10 @@ public sealed class CircleOfFlame() : CircleCard(CardRarity.Common)
         new DamageVar(5, ValueProp.Unpowered)
     ];
 
+    public override IEnumerable<CardKeyword> CanonicalKeywords => [CardKeyword.Unplayable];
+
     protected override IEnumerable<IHoverTip> ExtraHoverTips => [
-        HoverTipFactory.FromKeyword(TheCursedModCode.Keywords.Circle),
-        HoverTipFactory.FromKeyword(CardKeyword.Unplayable)
+        HoverTipFactory.FromKeyword(TheCursedModCode.Keywords.Circle)
     ];
 
     protected override bool ShouldTrigger(CardPlay cardPlay) =>

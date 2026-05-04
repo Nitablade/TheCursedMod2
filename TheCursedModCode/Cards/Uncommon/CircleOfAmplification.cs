@@ -14,9 +14,10 @@ public sealed class CircleOfAmplification() : CircleCard(CardRarity.Uncommon)
 {
     protected override IEnumerable<DynamicVar> CanonicalVars => [new EnergyVar(1)];
 
+    public override IEnumerable<CardKeyword> CanonicalKeywords => [CardKeyword.Unplayable];
+
     protected override IEnumerable<IHoverTip> ExtraHoverTips => [
         HoverTipFactory.FromKeyword(TheCursedModCode.Keywords.Circle),
-        HoverTipFactory.FromKeyword(CardKeyword.Unplayable),
         EnergyHoverTip
     ];
 

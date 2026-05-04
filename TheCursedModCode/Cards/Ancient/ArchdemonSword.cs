@@ -41,7 +41,7 @@ public sealed class ArchdemonSword() : TheCursedModCard(1, CardType.Attack, Card
         foreach (var card in curseCards)
         {
             await CardCmd.Exhaust(choiceContext, card);
-            await CommonActions.Apply<StrengthPower>(Owner!.Creature, this, DynamicVars["StrengthPower"].IntValue);
+            await CommonActions.Apply<StrengthPower>(choiceContext, Owner!.Creature, this, DynamicVars["StrengthPower"].IntValue);
         }
 
         await ApplyKarma(DynamicVars["KarmaPower"].IntValue);

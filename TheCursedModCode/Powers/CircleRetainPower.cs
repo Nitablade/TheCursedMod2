@@ -40,6 +40,15 @@ public class CircleRetainPower : TheCursedModPower
         return Task.CompletedTask;
     }
 
+    public override Task AfterCardGeneratedForCombat(CardModel card, bool addedByPlayer)
+    {
+        if (card.Owner != Owner.Player) return Task.CompletedTask;
+        if (card is not CircleCard) return Task.CompletedTask;
+        if (!PileType.Hand.GetPile(Owner.Player).Cards.Contains(card)) return Task.CompletedTask;
+        CardCmd.ApplyKeyword(card, CardKeyword.Retain);
+        return Task.CompletedTask;
+    }
+
     public override async Task AfterTurnEnd(PlayerChoiceContext choiceContext, CombatSide side)
     {
         if (side != Owner.Side) return;
@@ -51,7 +60,7 @@ public class CircleRetainPower : TheCursedModPower
             var pcs = Owner.Player?.PlayerCombatState;
             if (pcs != null)
                 foreach (var card in pcs.AllCards.OfType<CircleCard>())
-                    if (card.Enchantment is not Steady && !card.CanonicalKeywords.Contains(CardKeyword.Retain))
+                    if (card.Enchantment is not Steady && !(card is CircleOfAmplification && card.IsUpgraded))
                         CardCmd.RemoveKeyword(card, CardKeyword.Retain);
         }
 

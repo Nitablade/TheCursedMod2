@@ -14,7 +14,7 @@ public class TheCursedMod : PlaceholderCharacterModel
     
     public static readonly Color Color = new("5757d4");
 
-    public override string? CustomEnergyCounterPath =>
+    public override string CustomEnergyCounterPath =>
         "res://TheCursedMod/scenes/the_cursed_energy_counter.tscn";
 
     public override Color NameColor => Color;

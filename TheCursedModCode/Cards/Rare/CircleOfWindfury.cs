@@ -12,7 +12,7 @@ namespace TheCursedMod.TheCursedModCode.Cards;
 /// </summary>
 public sealed class CircleOfWindfury() : CircleCard(CardRarity.Rare)
 {
-    public override IEnumerable<CardKeyword> CanonicalKeywords => [CardKeyword.Ethereal];
+    public override IEnumerable<CardKeyword> CanonicalKeywords => [CardKeyword.Unplayable, CardKeyword.Ethereal];
 
     protected override IEnumerable<DynamicVar> CanonicalVars => [
         new CardsVar(1),
@@ -21,7 +21,6 @@ public sealed class CircleOfWindfury() : CircleCard(CardRarity.Rare)
 
     protected override IEnumerable<IHoverTip> ExtraHoverTips => [
         HoverTipFactory.FromKeyword(TheCursedModCode.Keywords.Circle),
-        HoverTipFactory.FromKeyword(CardKeyword.Unplayable),
         EnergyHoverTip
     ];
 

@@ -29,7 +29,7 @@ public sealed class CursedMace() : TheCursedModCard(2, CardType.Attack, CardRari
         await CommonActions.CardAttack(
             this, play, vfx: "vfx/vfx_attack_blunt", tmpSfx: "blunt_attack.mp3").Execute(choiceContext);
         if (play.Target != null)
-            await CommonActions.Apply<VulnerablePower>(play.Target, this, DynamicVars.Vulnerable.BaseValue);
+            await CommonActions.Apply<VulnerablePower>(choiceContext, play.Target, this, DynamicVars.Vulnerable.BaseValue);
 
         await Dregs.CreateAndAddToHand(Owner, 1);
     }
