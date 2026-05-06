@@ -13,6 +13,7 @@ namespace TheCursedMod.TheCursedModCode.Cards;
 /// </summary>
 public sealed class CursedWand() : TheCursedModCard(1, CardType.Attack, CardRarity.Basic, TargetType.AnyEnemy)
 {
+    public override bool GainsBlock => true;
     protected override IEnumerable<IHoverTip> ExtraHoverTips =>
     [
         HoverTipFactory.FromCard<Dregs>(false)

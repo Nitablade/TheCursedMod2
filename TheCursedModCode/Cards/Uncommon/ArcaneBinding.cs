@@ -23,7 +23,8 @@ public sealed class ArcaneBinding() : RiteCard(2, CardType.Skill, CardRarity.Unc
 
     protected override IEnumerable<IHoverTip> ExtraHoverTips => [
         HoverTipFactory.FromKeyword(TheCursedModCode.Keywords.Rite),
-        HoverTipFactory.FromKeyword(TheCursedModCode.Keywords.Circle)
+        HoverTipFactory.FromKeyword(TheCursedModCode.Keywords.Circle),
+        HoverTipFactory.FromKeyword(CardKeyword.Retain)
     ];
 
     protected override async Task OnBaseEffect(PlayerChoiceContext choiceContext, CardPlay play)
