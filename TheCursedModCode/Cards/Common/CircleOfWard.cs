@@ -20,7 +20,8 @@ public sealed class CircleOfWard() : CircleCard(CardRarity.Common)
     public override IEnumerable<CardKeyword> CanonicalKeywords => [CardKeyword.Unplayable];
 
     protected override IEnumerable<IHoverTip> ExtraHoverTips => [
-        HoverTipFactory.FromKeyword(TheCursedModCode.Keywords.Circle)
+        HoverTipFactory.FromKeyword(TheCursedModCode.Keywords.Circle),
+        HoverTipFactory.Static(StaticHoverTip.Block)
     ];
 
     protected override bool ShouldTrigger(CardPlay cardPlay) =>
