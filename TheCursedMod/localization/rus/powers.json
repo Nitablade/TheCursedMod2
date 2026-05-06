@@ -49,7 +49,7 @@
 
   "THECURSEDMOD-CYCLE_OF_DEPRAVITY_POWER.title": "Порочный цикл",
   "THECURSEDMOD-CYCLE_OF_DEPRAVITY_POWER.description": "Вы добираете карту в начале хода, если у вас есть [gold]Карма[/gold].",
-  "THECURSEDMOD-CYCLE_OF_DEPRAVITY_POWER.smartDescription": "Вы добираете {Amount:plural(ru):[blue]{}[/blue] карту|[blue]{}[/blue] карты| [blue]{}[/blue] карт} в начале хода, если у вас есть [gold]Карма[/gold].",
+  "THECURSEDMOD-CYCLE_OF_DEPRAVITY_POWER.smartDescription": "Вы добираете {Amount:plural(ru):[blue]{}[/blue] карту|[blue]{}[/blue] карты|[blue]{}[/blue] карт} в начале хода, если у вас есть [gold]Карма[/gold].",
 
   "THECURSEDMOD-FORBIDDEN_ELIXIR_POWER.title": "Непростительный эликсир",
   "THECURSEDMOD-FORBIDDEN_ELIXIR_POWER.description": "Вы получаете {energyPrefix} и [gold]Карму[/gold] в начале хода.",
@@ -57,7 +57,7 @@
 
   "THECURSEDMOD-TEAR_GRIMOIRE_POWER.title": "Разорвать гримуар",
   "THECURSEDMOD-TEAR_GRIMOIRE_POWER.description": "Атаки стоимостью {Energy:energyIcons()} или более разыгрываются еще 1 раз.",
-  "THECURSEDMOD-TEAR_GRIMOIRE_POWER.smartDescription": "Атаки стоимостью {Energy:energyIcons()} или более разыгрываются еще {Amount:plural(ru):раз|[blue]{}[/blue] раза| [blue]{}[/blue] раз}.",
+  "THECURSEDMOD-TEAR_GRIMOIRE_POWER.smartDescription": "Атаки стоимостью {Energy:energyIcons()} или более разыгрываются еще {Amount:plural(ru):раз|[blue]{}[/blue] раза|[blue]{}[/blue] раз}.",
 
   "THECURSEDMOD-KARMA_EVERY_TURN_POWER.title": "Постоянная карма",
   "THECURSEDMOD-KARMA_EVERY_TURN_POWER.description": "Вы получаете [gold]Карму[/gold] в начале хода.",
@@ -69,7 +69,7 @@
 
   "THECURSEDMOD-IGNORE_PAIN_POWER.title": "Отрицание боли",
   "THECURSEDMOD-IGNORE_PAIN_POWER.description": "Вы получите меньше урона от [gold]Кармы[/gold] в конце этого хода.",
-  "THECURSEDMOD-IGNORE_PAIN_POWER.smartDescription": "Вы получите на [blue]{Amount}%[/blue] урона меньше от [gold]Карма[/gold] в конце этого хода.",
+  "THECURSEDMOD-IGNORE_PAIN_POWER.smartDescription": "Вы получите на [blue]{Amount}%[/blue] урона меньше от [gold]Кармы[/gold] в конце этого хода.",
 
   "THECURSEDMOD-SPIRIT_OFFERING_POWER.title": "Подношение духам",
   "THECURSEDMOD-SPIRIT_OFFERING_POWER.description": "Дает [gold]силу[/gold] в первый раз за ход, когда срабатывает эффект [gold]Обряда[/gold].",
