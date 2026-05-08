@@ -1,0 +1,10 @@
+{
+  "THECURSEDMOD-RITE_POTION.title": "供物のポーション",
+  "THECURSEDMOD-RITE_POTION.description": "ランダムな[blue]3[/blue]枚の[gold]供物[/gold]を持つカードから[blue]1[/blue]枚を選び、[gold]手札[/gold]に加える。このターン、それはコストを支払わずにプレイできる。[gold]瓦礫[/gold]2枚を[gold]手札[/gold]に加える。",
+
+  "THECURSEDMOD-MERCY_POTION.title": "慈悲のポーション",
+  "THECURSEDMOD-MERCY_POTION.description": "このターン、[gold]カルマ[/gold]から受けるダメージが[blue]100%[/blue]減少する。",
+
+  "THECURSEDMOD-CIRCLES_IN_A_BOTTLE_POTION.title": "瓶詰めの魔法陣",
+  "THECURSEDMOD-CIRCLES_IN_A_BOTTLE_POTION.description": "ランダムな[blue]2[/blue]枚の[gold]アップグレード[/gold]済みの[gold]魔法陣[/gold]を[gold]手札[/gold]に加える。それらは[purple]安定性[/purple][gold]エンチャント[/gold]を得る。"
+}
