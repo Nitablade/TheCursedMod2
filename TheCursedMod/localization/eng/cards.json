@@ -200,7 +200,7 @@
   "THECURSEDMOD-ARCANE_DISCHARGE.description": "Deal damage to ALL enemies equal to {ExtraDamage:diff()} times the number of [gold]Circle[/gold] effects triggered this combat.{InCombat:cond:\n(Deals {CalculatedDamage:diff()} damage.)|}",
 
   "THECURSEDMOD-DOMAIN_EXPANSION.title": "Domain Expansion",
-  "THECURSEDMOD-DOMAIN_EXPANSION.description": "Force all [gold]Circle[/gold] cards in your [gold]Hand[/gold] to trigger {IfUpgraded:show:X+1|X} times, ignoring their conditions.\n[gold]Karma[/gold] {KarmaPower:diff()} {IfUpgraded:show:X+1|X} times.",
+  "THECURSEDMOD-DOMAIN_EXPANSION.description": "Force all [gold]Circle[/gold] cards in your [gold]Hand[/gold] to trigger X{IfUpgraded:show:+1|} times, ignoring their conditions.\n[gold]Karma[/gold] {KarmaPower:diff()} X{IfUpgraded:show:+1|} times.",
 
   "THECURSEDMOD-GRACE.title": "Grace",
   "THECURSEDMOD-GRACE.description": "[gold]Karma[/gold] damage is delayed by an extra turn. This effect cannot be stacked.",

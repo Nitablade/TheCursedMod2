@@ -200,7 +200,7 @@
   "THECURSEDMOD-ARCANE_DISCHARGE.description": "Наносит урон ВСЕМ врагам, равный количеству срабатываний эффектов [gold]Круга[/gold] в этом бою × {ExtraDamage:diff()}.{InCombat:cond:\n(Наносит {CalculatedDamage:diff()} урона)|}",
 
   "THECURSEDMOD-DOMAIN_EXPANSION.title": "Расширение домена",
-  "THECURSEDMOD-DOMAIN_EXPANSION.description": "Активирует эффект каждого [gold]Круга[/gold] в вашей [gold]руке[/gold] {IfUpgraded:show:X+1|X} раз, игнорируя их условия.\nВы получаете {KarmaPower:diff()} [gold]Кармы[/gold] {IfUpgraded:show:X+1|X} раз.",
+  "THECURSEDMOD-DOMAIN_EXPANSION.description": "Активирует эффект каждого [gold]Круга[/gold] в вашей [gold]руке[/gold] X{IfUpgraded:show:+1|} раз, игнорируя их условия.\nВы получаете {KarmaPower:diff()} [gold]Кармы[/gold] X{IfUpgraded:show:+1|} раз.",
 
   "THECURSEDMOD-GRACE.title": "Отсрочить судьбу",
   "THECURSEDMOD-GRACE.description": "Урон от [gold]Кармы[/gold] откладывается на еще 1 ход. Этот эффект не суммируется.",
