@@ -28,7 +28,7 @@ Some cards with forbidden power bring you Karma as a penalty. Karma deals self-d
 - Animation is not supported yet...
 
 ## Supported Languages
-Korean, English, Simplified Chinese, Russian
+Korean, English, Simplified Chinese, Russian, Japanese
 
 [Localization instruction](https://github.com/jhp109/TheCursedMod2/blob/main/TheCursedMod/localization/README.md)
 
