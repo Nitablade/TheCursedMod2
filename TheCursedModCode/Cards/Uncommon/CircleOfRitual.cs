@@ -22,7 +22,8 @@ public sealed class CircleOfRitual() : CircleCard(CardRarity.Uncommon)
 
     protected override IEnumerable<IHoverTip> ExtraHoverTips => [
         HoverTipFactory.FromKeyword(TheCursedModCode.Keywords.Circle),
-        HoverTipFactory.FromKeyword(TheCursedModCode.Keywords.Rite)
+        HoverTipFactory.FromKeyword(TheCursedModCode.Keywords.Rite),
+        HoverTipFactory.Static(StaticHoverTip.Block)
     ];
 
     protected override bool ShouldTrigger(CardPlay cardPlay) => false;

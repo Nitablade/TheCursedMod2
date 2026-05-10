@@ -200,7 +200,7 @@
  "THECURSEDMOD-ARCANE_DISCHARGE.description":"对所有敌人造成等同于{ExtraDamage:diff()}乘以本场战斗中[gold]魔法阵[/gold]效果触发次数的伤害。{InCombat:cond:\n(造成{CalculatedDamage:diff()}点伤害。)|}",
 
  "THECURSEDMOD-DOMAIN_EXPANSION.title":"领域展开",
- "THECURSEDMOD-DOMAIN_EXPANSION.description":"强制触发你[gold]手牌[/gold]中所有[gold]魔法阵[/gold]牌的效果{IfUpgraded:show:X+1|X}次，无视其触发条件。\n[gold]因果报应[/gold]{KarmaPower:diff()}{IfUpgraded:show:X+1|X}次。",
+ "THECURSEDMOD-DOMAIN_EXPANSION.description":"强制触发你[gold]手牌[/gold]中所有[gold]魔法阵[/gold]牌的效果X{IfUpgraded:show:+1|}次，无视其触发条件。\n[gold]因果报应[/gold]{KarmaPower:diff()}X{IfUpgraded:show:+1|}次。",
 
  "THECURSEDMOD-GRACE.title":"恩典",
  "THECURSEDMOD-GRACE.description":"[gold]因果报应[/gold]伤害额外延迟一回合触发。此效果无法叠加。",

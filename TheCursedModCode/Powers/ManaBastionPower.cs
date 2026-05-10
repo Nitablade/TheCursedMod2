@@ -14,7 +14,8 @@ public class ManaBastionPower : TheCursedModPower
     public override PowerStackType StackType => PowerStackType.Counter;
 
     protected override IEnumerable<IHoverTip> ExtraHoverTips => [
-        HoverTipFactory.FromKeyword(TheCursedModCode.Keywords.Circle)
+        HoverTipFactory.FromKeyword(TheCursedModCode.Keywords.Circle),
+        HoverTipFactory.Static(StaticHoverTip.Block)
     ];
 
     public void TriggerFlash() => Flash();

@@ -1,0 +1,37 @@
+{
+  "THECURSEDMOD-BLACK_MAGIC101_RELIC.title": "黒魔術基礎理論",
+  "THECURSEDMOD-BLACK_MAGIC101_RELIC.description": "ターン開始時、[gold]山札[/gold]に[gold]呪い[/gold]がある場合、追加でカードを[blue]1[/blue]枚引く。",
+  "THECURSEDMOD-BLACK_MAGIC101_RELIC.flavor": "黒魔術が今すぐ学べる!!!(第5版)",
+
+  "THECURSEDMOD-BLACK_MAGIC_ADVANCED_RELIC.title": "黒魔術応用技法",
+  "THECURSEDMOD-BLACK_MAGIC_ADVANCED_RELIC.description": "ターン開始時、[gold]山札[/gold]に[gold]呪い[/gold]がある場合、追加でカードを[blue]2[/blue]枚引く。",
+  "THECURSEDMOD-BLACK_MAGIC_ADVANCED_RELIC.flavor": "禁忌の力とカルマのすべて。(初版)",
+
+  "THECURSEDMOD-SPIRIT_FUEL_RELIC.title": "魂の燃料",
+  "THECURSEDMOD-SPIRIT_FUEL_RELIC.description": "毎ターン、初めて[gold]供物[/gold]効果を発動した時、次のターン、カードを[blue]1[/blue]枚引く。",
+  "THECURSEDMOD-SPIRIT_FUEL_RELIC.flavor": "魂は、たとえ束の間であっても…眩く燃える。",
+
+  "THECURSEDMOD-FOUR_LEAF_CLOVER_CHARM_RELIC.title": "四つ葉のお守り",
+  "THECURSEDMOD-FOUR_LEAF_CLOVER_CHARM_RELIC.description": "戦闘中、[purple]カースド[/purple]のカードからランダムな[gold]呪い[/gold]を加える場合、代わりに[gold]瓦礫[/gold]を加える。",
+  "THECURSEDMOD-FOUR_LEAF_CLOVER_CHARM_RELIC.flavor": "幸運と幸福は、感謝の気持ちから生まれる。",
+
+  "THECURSEDMOD-PURPLE_CANDLE_RELIC.title": "紫色のキャンドル",
+  "THECURSEDMOD-PURPLE_CANDLE_RELIC.description": "[gold]魔法陣[/gold]の効果を[blue]10[/blue]回発動するたび、カードを[blue]1[/blue]枚引く。",
+  "THECURSEDMOD-PURPLE_CANDLE_RELIC.flavor": "その灯火は、響いては弱まり、見返りを得れば輝きを増す。",
+
+  "THECURSEDMOD-WRAITH_BEADS_RELIC.title": "亡霊の数珠",
+  "THECURSEDMOD-WRAITH_BEADS_RELIC.description": "[gold]カルマ[/gold]によってHPを失った場合、次のターン開始時、{Energy:energyIcons()}を得る。カードを[blue]2[/blue]枚引く。",
+  "THECURSEDMOD-WRAITH_BEADS_RELIC.flavor": "一つ一つの珠に、耐え抜いた傷の記憶が宿っている。",
+
+  "THECURSEDMOD-RITUALISTS_RING_RELIC.title": "儀式者のリング",
+  "THECURSEDMOD-RITUALISTS_RING_RELIC.description": "[gold]供物[/gold]の効果を[blue]6[/blue]回発動するたび、{Energy:energyIcons()}を得る。",
+  "THECURSEDMOD-RITUALISTS_RING_RELIC.flavor": "足りぬ……もっと……供物を……",
+
+  "THECURSEDMOD-DEMONIC_MARK_RELIC.title": "デーモンの印",
+  "THECURSEDMOD-DEMONIC_MARK_RELIC.description": "1ターンの間に[gold]魔法陣[/gold]の効果を[blue]4[/blue]回発動するたび、[gold]Strength[/gold][blue]1[/blue]を得る。",
+  "THECURSEDMOD-DEMONIC_MARK_RELIC.flavor": "いつもと違う気がする…",
+
+  "THECURSEDMOD-SOUL_VESSEL_RELIC.title": "霊魂の壺",
+  "THECURSEDMOD-SOUL_VESSEL_RELIC.description": "戦闘中に発動した[gold]供物[/gold]効果1回につき、戦闘終了時、[blue]2[/blue]HP回復する。(最大[blue]10[/blue]HP)",
+  "THECURSEDMOD-SOUL_VESSEL_RELIC.flavor": "この壺は、失われた魂の一つ一つを記憶している。"
+}

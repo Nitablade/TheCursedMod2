@@ -1,0 +1,274 @@
+{
+  "THECURSEDMOD-RITE.selectionScreenPrompt": "廃棄するカードを選ぶ。(呪いを選ぶと供物の効果発動)",
+
+  "THECURSEDMOD-DREGS.title": "瓦礫",
+  "THECURSEDMOD-DREGS.description": "",
+
+  "THECURSEDMOD-STRIKE_THE_CURSED.title": "ストライク",
+  "THECURSEDMOD-STRIKE_THE_CURSED.description": "{Damage:diff()}ダメージを与える。",
+
+  "THECURSEDMOD-DEFEND_THE_CURSED.title": "防御",
+  "THECURSEDMOD-DEFEND_THE_CURSED.description": "{Block:diff()}ブロックを得る。",
+
+  "THECURSEDMOD-CURSED_WAND.title": "呪いのワンド",
+  "THECURSEDMOD-CURSED_WAND.description": "{Block:diff()}[gold]ブロック[/gold]を得る。\n{Damage:diff()}ダメージを与える。\n[gold]瓦礫[/gold]を1枚[gold]手札[/gold]に加える。",
+
+  "THECURSEDMOD-CLEAN_UP_WORKSHOP.title": "作業場の清掃",
+  "THECURSEDMOD-CLEAN_UP_WORKSHOP.description": "[gold]供物[/gold] : {Block:diff()}[gold]ブロック[/gold]を得て、カードを{Cards:diff()}枚引く。",
+
+  "THECURSEDMOD-CURSED_MACE.title": "呪いのメイス",
+  "THECURSEDMOD-CURSED_MACE.description": "{Damage:diff()}ダメージを与える。\n[gold]弱体[/gold]{VulnerablePower:diff()}を付与する。\n[gold]瓦礫[/gold]を1枚[gold]手札[/gold]に加える。",
+
+  "THECURSEDMOD-CURSED_SHIV.title": "呪いのナイフ",
+  "THECURSEDMOD-CURSED_SHIV.description": "{Damage:diff()}ダメージを与える。\n[gold]瓦礫[/gold]を1枚[gold]手札[/gold]に加える。",
+
+  "THECURSEDMOD-CURSED_STAFF.title": "呪いのスタッフ",
+  "THECURSEDMOD-CURSED_STAFF.description": "{Damage:diff()}ダメージを与える。\n[gold]瓦礫[/gold]を2枚[gold]手札[/gold]に加える。",
+
+  "THECURSEDMOD-CURSED_BOOMERANG.title": "呪いのブーメラン",
+  "THECURSEDMOD-CURSED_BOOMERANG.description": "ランダムな敵に{Damage:diff()}ダメージを{Repeat:diff()}回与える。\n[gold]瓦礫[/gold]を1枚[gold]手札[/gold]に加える。",
+
+  "THECURSEDMOD-CURSED_BLADE.title": "呪いの剣",
+  "THECURSEDMOD-CURSED_BLADE.description": "すべての敵に{Damage:diff()}ダメージを与える。\n[gold]瓦礫[/gold]を1枚[gold]手札[/gold]に加える。",
+
+  "THECURSEDMOD-SPITEFUL_STRIKE.title": "悪意のストライク",
+  "THECURSEDMOD-SPITEFUL_STRIKE.description": "{Damage:diff()}ダメージを与える。\n[gold]手札[/gold]に[gold]プレイ不可[/gold]を持つカードがある場合、{Energy:energyIcons()}を得る。",
+
+  "THECURSEDMOD-REAR_STRIKE.title": "リアストライク",
+  "THECURSEDMOD-REAR_STRIKE.description": "{Damage:diff()}ダメージを与える。\n[gold]カルマ[/gold]{KarmaPower:diff()}。",
+
+  "THECURSEDMOD-RAVING_STAFF.title": "暴れ狂う杖",
+  "THECURSEDMOD-RAVING_STAFF.description": "ランダムな敵に{Damage:diff()}ダメージをX回与える。\n[gold]カルマ[/gold]{KarmaPower:diff()}X。",
+
+  "THECURSEDMOD-WIELD.title": "一振り",
+  "THECURSEDMOD-WIELD.description": "{Damage:diff()}ダメージを与える。\n[gold]手札[/gold]の[gold]プレイ不可[/gold]を持つカードと同数のカードを引く。{InCombat:cond:\n({CalculatedCards}枚引く)|}",
+
+  "THECURSEDMOD-OBSCURATION.title": "遮蔽",
+  "THECURSEDMOD-OBSCURATION.description": "{Block:diff()}[gold]ブロック[/gold]を得る。\n[gold]供物[/gold]: 追加で{Block:diff()}[gold]ブロック[/gold]を得る。",
+
+  "THECURSEDMOD-RAPID_MOVEMENT.title": "機敏な動き",
+  "THECURSEDMOD-RAPID_MOVEMENT.description": "{Block:diff()}[gold]ブロック[/gold]を得る。\n[gold]供物[/gold] : カードを2枚引く。",
+
+  "THECURSEDMOD-WEAR_CLOAK.title": "外套を纏う",
+  "THECURSEDMOD-WEAR_CLOAK.description": "{Block:diff()}[gold]ブロック[/gold]を得る。\n[gold]手札[/gold]に[gold]プレイ不可[/gold]を持つカードがある場合、[gold]捨て札[/gold]からカードを1枚[gold]手札[/gold]に加える。",
+  "THECURSEDMOD-WEAR_CLOAK.selectionScreenPrompt": "Choose a card to return to your Hand.",
+
+  "THECURSEDMOD-CURSED_ARMOUR.title": "呪いの鎧",
+  "THECURSEDMOD-CURSED_ARMOUR.description": "{Block:diff()}[gold]ブロック[/gold]を得る。\nランダムな[gold]呪い[/gold]を2枚[gold]山札[/gold]に混ぜてシャッフルする。",
+
+  "THECURSEDMOD-DOUBLE_SHIELD.title": "ダブルシールド",
+  "THECURSEDMOD-DOUBLE_SHIELD.description": "{Block:diff()}[gold]ブロック[/gold]を得る。\n[gold]供物[/gold] : 次のターン、{Block:diff()}[gold]ブロック[/gold]を得る。",
+
+  "THECURSEDMOD-CURSED_AMULET.title": "呪いのアミュレット",
+  "THECURSEDMOD-CURSED_AMULET.description": "{Block:diff()}[gold]ブロック[/gold]を得る。\nカードを1枚引く。\nランダムな[gold]呪い[/gold]を1枚[gold]山札[/gold]に混ぜてシャッフルする。",
+
+  "THECURSEDMOD-SMOKESCREEN.title": "煙幕",
+  "THECURSEDMOD-SMOKESCREEN.description": "{Block:diff()}[gold]ブロック[/gold]を得る。\n[gold]供物[/gold] : すべての敵に[gold]脱力[/gold]{WeakPower:diff()}を付与する。",
+
+  "THECURSEDMOD-ASHES_TO_ASHES.title": "灰燼に帰す",
+  "THECURSEDMOD-ASHES_TO_ASHES.description": "[gold]供物[/gold] : カードを{Cards:diff()}枚引く。",
+
+  "THECURSEDMOD-REPENTANCE.title": "懺悔",
+  "THECURSEDMOD-REPENTANCE.description": "{Block:diff()}[gold]ブロック[/gold]を得る。\n自身が[gold]カルマ[/gold]を持っている場合、代わりに{KarmaBlock:diff()}[gold]ブロック[/gold]を得る。",
+
+  "THECURSEDMOD-CURSED_MIRROR.title": "呪いの鏡",
+  "THECURSEDMOD-CURSED_MIRROR.description": "{Damage:diff()}ダメージを与える。\n[gold]心酔[/gold]1枚を[gold]手札[/gold]に加える。",
+
+  "THECURSEDMOD-SCINTILLA.selectionScreenPrompt": "[gold]変化[/gold]させるカードを1枚選ぶ。",
+  "THECURSEDMOD-SCINTILLA.title": "火花",
+  "THECURSEDMOD-SCINTILLA.description": "{Damage:diff()}ダメージを与える。\n[gold]捨て札[/gold]のカードを1枚選び、[gold]瓦礫[/gold]に変化させる。",
+
+  "THECURSEDMOD-BLESSING_IN_DISGUISE.title": "僥倖",
+  "THECURSEDMOD-BLESSING_IN_DISGUISE.description": "[gold]手札[/gold]にある[gold]呪い[/gold]すべてを[gold]廃棄[/gold]する。\n[gold]廃棄[/gold]したカード1枚につき、{Block:diff()}[gold]ブロック[/gold]を得る。",
+
+  "THECURSEDMOD-CURSED_SPELLBOOK.title": "呪いの魔導書",
+  "THECURSEDMOD-CURSED_SPELLBOOK.description": "カードを{Cards:diff()}枚引く。\nランダムな[gold]呪い[/gold]を1枚[gold]山札[/gold]に混ぜてシャッフルする。",
+
+  "THECURSEDMOD-FLESH_FROM_BONE.title": "肉付け",
+  "THECURSEDMOD-FLESH_FROM_BONE.description": "{Block:diff()}[gold]ブロック[/gold]を得る。\n[gold]供物[/gold] : [gold]プレート[/gold]{PlatingPower:diff()}を得る。",
+
+  "THECURSEDMOD-ARCANE_SWEEP.title": "神秘の薙ぎ払い",
+  "THECURSEDMOD-ARCANE_SWEEP.description": "すべての敵に{Damage:diff()}ダメージを与える。 [gold]手札[/gold]に[gold]魔法陣[/gold]がある場合、追加ですべての敵に{Damage:diff()}ダメージを与える。",
+
+  "THECURSEDMOD-CIRCLE_OF_FLAME.title": "火炎陣",
+  "THECURSEDMOD-CIRCLE_OF_FLAME.description": "[gold]魔法陣[/gold] : アタックをプレイするたび、すべての敵に{Damage:diff()}ダメージを与える。",
+
+  "THECURSEDMOD-CIRCLE_OF_WARD.title": "防護陣",
+  "THECURSEDMOD-CIRCLE_OF_WARD.description": "[gold]魔法陣[/gold] : スキルをプレイするたび、{Block:diff()}[gold]ブロック[/gold]を得る。",
+
+  "THECURSEDMOD-CIRCLE_OF_AMPLIFICATION.title": "増幅陣",
+  "THECURSEDMOD-CIRCLE_OF_AMPLIFICATION.description": "[gold]魔法陣[/gold] : パワーをプレイするたび、{Energy:energyIcons()}を得る。",
+
+  "THECURSEDMOD-CIRCLE_OF_RITUAL.title": "儀式陣",
+  "THECURSEDMOD-CIRCLE_OF_RITUAL.description": "[gold]魔法陣[/gold] : [gold]供物[/gold]を行うたび、{Block:diff()}[gold]ブロック[/gold]を得て、カードを{Cards:diff()}枚引く。",
+
+  "THECURSEDMOD-CIRCLE_OF_FOCUS.title": "集中陣",
+  "THECURSEDMOD-CIRCLE_OF_FOCUS.description": "[gold]魔法陣[/gold] : コストが{CostThreshold:energyIcons()}以上のカードをプレイするたび、{Energy:energyIcons()}を得る。",
+
+  "THECURSEDMOD-ARCANE_TRIGGER.title": "神秘のトリガー",
+  "THECURSEDMOD-ARCANE_TRIGGER.description": "{Damage:diff()}ダメージを与える。\n[gold]手札[/gold]にある[gold]魔法陣[/gold]すべての効果を、条件を問わず発動させる。",
+
+  "THECURSEDMOD-MANA_BULLET.title": "魔力の弾丸",
+  "THECURSEDMOD-MANA_BULLET.description": "[gold]手札[/gold]にある[gold]魔法陣[/gold]1枚につき、\n{Damage:diff()}ダメージを与える。{InCombat:cond:\n(攻撃回数は{CalculatedRepeat}回)|}",
+
+  "THECURSEDMOD-MALEVOLENCE.title": "悪辣",
+  "THECURSEDMOD-MALEVOLENCE.description": "[gold]供物[/gold]を持つランダムなカードを1枚[gold]手札[/gold]に加える。\nこのターン、それはコストを支払わずにプレイできる。",
+
+  "THECURSEDMOD-CELERITY.title": "迅速",
+  "THECURSEDMOD-CELERITY.description": "[gold]供物[/gold] : [gold]手札[/gold]にある[gold]魔法陣[/gold]1枚につき、\n[gold]敏捷[/gold]{CalculationExtra:diff()}を得る。{InCombat:cond:\n([gold]敏捷[/gold]{CalculatedDexterity}を得る)|}",
+
+  "THECURSEDMOD-ARCANE_BINDING.title": "神秘の拘束",
+  "THECURSEDMOD-ARCANE_BINDING.description": "{Block:diff()}[gold]ブロック[/gold]を得る。\n[gold]供物[/gold] : [gold]手札[/gold]の[gold]魔法陣[/gold]は、次の{CircleRetainPower:diff()}ターンの間[gold]保留[/gold]を得る。",
+
+  "THECURSEDMOD-WICKED_WARD.title": "意地悪な盾",
+  "THECURSEDMOD-WICKED_WARD.description": "[gold]供物[/gold] : 他のプレイヤーすべてに{Block:diff()}[gold]ブロック[/gold]を与える。",
+
+  "THECURSEDMOD-RESONATING_SHIELD.title": "共鳴の盾",
+  "THECURSEDMOD-RESONATING_SHIELD.description": "この戦闘中に発動した[gold]魔法陣[/gold]効果1回につき、コストが{Energy:energyIcons()}減少する。\n{Block:diff()}[gold]ブロック[/gold]を得る。",
+
+  "THECURSEDMOD-PREPARE_RITE.title": "供物の準備",
+  "THECURSEDMOD-PREPARE_RITE.description": "[gold]山札[/gold]のカードを1枚選び、[gold]瓦礫[/gold]に変化させる。\n次のターン、カードを{DrawCardsNextTurnPower:diff()}枚引く。",
+  "THECURSEDMOD-PREPARE_RITE.selectionScreenPrompt": "[gold]変化[/gold]させるカードを1枚選ぶ。",
+
+  "THECURSEDMOD-TROUBLOUS_MINION.title": "お騒がせミニオン",
+  "THECURSEDMOD-TROUBLOUS_MINION.description": "{Block:diff()}[gold]ブロック[/gold]を得る。\nランダムな[gold]呪い[/gold]を1枚[gold]手札[/gold]に加える。\nこのカードを[gold]山札[/gold]に混ぜてシャッフルする。",
+
+  "THECURSEDMOD-RECYCLABLE_WASTE.title": "資源ゴミ",
+  "THECURSEDMOD-RECYCLABLE_WASTE.description": "この戦闘中、すべての[gold]瓦礫[/gold]は[gold]保留[/gold]を得る。\n[gold]瓦礫[/gold]を2枚[gold]手札[/gold]に加える。",
+
+  "THECURSEDMOD-LUCKY_CHARM.title": "幸運のお守り",
+  "THECURSEDMOD-LUCKY_CHARM.description": "[gold]呪い[/gold]を引くか[gold]廃棄[/gold]するたび、{LuckyCharmPower:diff()}[gold]ブロック[/gold]を得る。",
+
+  "THECURSEDMOD-MANA_CIRCULATION.title": "魔力の循環",
+  "THECURSEDMOD-MANA_CIRCULATION.description": "毎ターン、最初に[gold]供物[/gold]効果を発動した時、{Energy:energyIcons()}を得る。",
+
+  "THECURSEDMOD-HELLFIRE_BREATHING.title": "ヘルファイアブレス",
+  "THECURSEDMOD-HELLFIRE_BREATHING.description": "[gold]プレイ不可[/gold]を持つカードを引くたび、すべての敵に{HellfireBreathingPower:diff()}ダメージを与える。",
+
+  "THECURSEDMOD-DENYING_FATE.title": "悪あがき",
+  "THECURSEDMOD-DENYING_FATE.description": "{Damage:diff()}ダメージを与える。このターン終了時の[gold]カルマ[/gold]ダメージを、次のターンまで繰り越す。",
+
+  "THECURSEDMOD-FATAL_LEAP.title": "大胆な跳躍",
+  "THECURSEDMOD-FATAL_LEAP.description": "{Damage:diff()}ダメージを与える。\n自身が[gold]カルマ[/gold]を持っている場合、{Energy:energyIcons()}を得て、カードを1枚引く。",
+
+  "THECURSEDMOD-VITAL_STRIKE.title": "バイタルストライク",
+  "THECURSEDMOD-VITAL_STRIKE.description": "{Damage:diff()}ダメージを与える。\n自身が[gold]カルマ[/gold]を持っている場合、[gold]弱体[/gold]{VulnerablePower:diff()}を付与する。",
+
+  "THECURSEDMOD-FORBIDDEN_FLAME.title": "禁忌の炎",
+  "THECURSEDMOD-FORBIDDEN_FLAME.description": "すべての敵に{Damage:diff()}ダメージを与える。\n[gold]カルマ[/gold]{KarmaPower:diff()}。",
+
+  "THECURSEDMOD-FORBIDDEN_COMBO.title": "禁忌の連撃",
+  "THECURSEDMOD-FORBIDDEN_COMBO.description": "{Damage:diff()}ダメージを{Repeat:diff()}回与える。\n[gold]カルマ[/gold]{KarmaPower:diff()}。",
+
+  "THECURSEDMOD-FORBIDDEN_WALLOP.title": "禁忌の一撃",
+  "THECURSEDMOD-FORBIDDEN_WALLOP.description": "{Damage:diff()}ダメージを与える。\nブロックされなかったダメージに等しい[gold]ブロック[/gold]を得る。\n[gold]カルマ[/gold]{KarmaPower:diff()}。",
+
+  "THECURSEDMOD-FORBIDDEN_RAID.title": "禁忌の襲撃",
+  "THECURSEDMOD-FORBIDDEN_RAID.description": "{Damage:diff()}ダメージを与える。\nカードを1枚引く。\n[gold]カルマ[/gold]{KarmaPower:diff()}。",
+
+  "THECURSEDMOD-FORBIDDEN_STRENGTH.title": "禁忌の肉体",
+  "THECURSEDMOD-FORBIDDEN_STRENGTH.description": "[gold]手札[/gold]の[gold]魔法陣[/gold]1枚につき[gold]筋力[/gold]{CalculationExtra:diff()}を得る。\n[gold]カルマ[/gold]{KarmaPower:diff()}。{InCombat:cond:\n([gold]筋力[/gold]{CalculatedStrength}を得る)|}",
+
+  "THECURSEDMOD-WICKED_TEMPERING.title": "邪悪の焼成",
+  "THECURSEDMOD-WICKED_TEMPERING.description": "[gold]供物[/gold] : 次の[gold]カルマ[/gold]を持つアタックは追加で{MultiplyNextKarmaAttackPower:diff()}%ダメージを与える。",
+
+  "THECURSEDMOD-SPIRIT_OFFERING.title": "霊的供物",
+  "THECURSEDMOD-SPIRIT_OFFERING.description": "毎ターン、初めて[gold]供物[/gold]効果を発動した時、[gold]筋力[/gold]{SpiritOfferingPower:diff()}を得る。",
+
+  "THECURSEDMOD-IGNORE_PAIN.title": "辛抱",
+  "THECURSEDMOD-IGNORE_PAIN.description": "{Block:diff()}[gold]ブロック[/gold]を得る。\n[gold]供物[/gold] : このターン、[gold]カルマ[/gold]から受けるダメージが50%減少する。",
+
+  "THECURSEDMOD-ROLLING_OVER_DEBT.title": "滞納",
+  "THECURSEDMOD-ROLLING_OVER_DEBT.description": "ターン終了時、自身が[gold]カルマ[/gold]を持っている場合、{RollingOverDebtPower:diff()}[gold]ブロック[/gold]を得る。",
+
+  "THECURSEDMOD-CYCLE_OF_DEPRAVITY.title": "悪循環",
+  "THECURSEDMOD-CYCLE_OF_DEPRAVITY.description": "ターン開始時、自身が[gold]カルマ[/gold]を持っている場合、カードを{CycleOfDepravityPower:diff()}枚引く。",
+
+  "THECURSEDMOD-TEAR_GRIMOIRE.title": "裂けた魔導書",
+  "THECURSEDMOD-TEAR_GRIMOIRE.description": "コストが{Energy:energyIcons()}以上のアタックは追加で1回プレイされる。\nターン開始時、[gold]カルマ[/gold]{KarmaPower:diff()}。",
+
+  "THECURSEDMOD-CIRCLE_OF_OVERCURRENT.title": "雷霆陣",
+  "THECURSEDMOD-CIRCLE_OF_OVERCURRENT.description": "[gold]魔法陣[/gold] : スキルをプレイするたび、ランダムな敵に{Damage:diff()}ダメージを与える。この戦闘中、このカードのダメージが{DamageIncrement:diff()}増加する。",
+
+  "THECURSEDMOD-CIRCLE_OF_WINDFURY.title": "暴風陣",
+  "THECURSEDMOD-CIRCLE_OF_WINDFURY.description": "[gold]魔法陣[/gold] : コストが0{Energy:energyIcons()}のカードをプレイするたび、カードを{Cards:diff()}枚引く。",
+
+  "THECURSEDMOD-ARCANE_MATRIX.title": "神秘のマトリックス",
+  "THECURSEDMOD-ARCANE_MATRIX.description": "[gold]魔法陣[/gold]を引くたび、{Energy:energyIcons()}を得て、カードを{ArcaneMatrixPower:diff()}枚引く。",
+
+  "THECURSEDMOD-ARCANE_DISCHARGE.title": "神秘の放出",
+  "THECURSEDMOD-ARCANE_DISCHARGE.description": "すべての敵に、この戦闘中に[gold]魔法陣[/gold]効果が発動した回数の{ExtraDamage:diff()}倍のダメージを与える。{InCombat:cond:\n({CalculatedDamage:diff()}ダメージを与える)|}",
+
+  "THECURSEDMOD-DOMAIN_EXPANSION.title": "領域拡張",
+  "THECURSEDMOD-DOMAIN_EXPANSION.description": "[gold]手札[/gold]にある[gold]魔法陣[/gold]すべての効果を、条件を問わずX{IfUpgraded:show:+1|}回発動させる。\n[gold]カルマ[/gold]{KarmaPower:diff()}X{IfUpgraded:show:+1|}。",
+
+  "THECURSEDMOD-GRACE.title": "猶予",
+  "THECURSEDMOD-GRACE.description": "[gold]カルマ[/gold]ダメージを1ターン遅らせる。この効果は重複できない。",
+
+  "THECURSEDMOD-ANGER_CONTROL.title": "怒りの抑圧",
+  "THECURSEDMOD-ANGER_CONTROL.description": "{Damage:diff()}ダメージを{Repeat:diff()}回与える。\nこの戦闘中、このカードの攻撃回数を1増加する。\n[gold]凡庸[/gold]1枚を[gold]手札[/gold]に加える。",
+
+  "THECURSEDMOD-DIE_TOGETHER.title": "死なばもろとも",
+  "THECURSEDMOD-DIE_TOGETHER.description": "[gold]カルマ[/gold]ダメージをすべての敵にも与える。\nターン開始時、[gold]カルマ[/gold]{KarmaPower:diff()}。",
+
+  "THECURSEDMOD-FREEDOM_AND_BONDAGE.title": "自由と束縛",
+  "THECURSEDMOD-FREEDOM_AND_BONDAGE.description": "すべてのプレイヤーは{Energy:energyIcons()}を得て、ランダムな[gold]呪い[/gold]を1枚[gold]手札[/gold]に加える。",
+
+  "THECURSEDMOD-FORBIDDEN_FORM.title": "禁忌の形態",
+  "THECURSEDMOD-FORBIDDEN_FORM.description": "[gold]供物[/gold]効果を発動した時、次の[gold]カルマ[/gold]を持つアタックは追加で{ForbiddenFormPower:diff()}%ダメージを与える。",
+
+  "THECURSEDMOD-FORBIDDEN_BLUDGEON.title": "禁忌の殴打",
+  "THECURSEDMOD-FORBIDDEN_BLUDGEON.description": "{Damage:diff()}ダメージを与える。\n[gold]カルマ[/gold]{KarmaPower:diff()}。",
+
+  "THECURSEDMOD-ESSENCE_DRAIN.title": "精気吸収",
+  "THECURSEDMOD-ESSENCE_DRAIN.description": "{Damage:diff()}ダメージを与える。\nブロックされなかったダメージに等しいHPを回復する。",
+
+  "THECURSEDMOD-DARK_BARRIER.title": "ダークバリア",
+  "THECURSEDMOD-DARK_BARRIER.description": "[gold]供物[/gold] : [gold]霊体[/gold]{IntangiblePower:diff()}を得る。",
+
+  "THECURSEDMOD-MIRACLE_ALCHEMY.title": "奇跡の錬金術",
+  "THECURSEDMOD-MIRACLE_ALCHEMY.description": "[gold]供物[/gold] : [gold]エントロピー醸造[/gold]1つを入手する。",
+
+  "THECURSEDMOD-ANTI_AGING.title": "若返り",
+  "THECURSEDMOD-ANTI_AGING.description": "{Block:diff()}[gold]ブロック[/gold]を得る。\n[gold]供物[/gold] : 最大HPが{MaxHp:diff()}増加する。",
+
+  "THECURSEDMOD-DEMONIC_BLADE.title": "悪魔の刃",
+  "THECURSEDMOD-DEMONIC_BLADE.description": "{CalculatedDamage:diff()}ダメージを与える。\nこの戦闘中に発動した[gold]供物[/gold]効果1回につき、追加で{ExtraDamage:diff()}ダメージを与える。",
+
+  "THECURSEDMOD-CALL_OF_THE_ANCIENT.title": "エンシェントの呼び声",
+  "THECURSEDMOD-CALL_OF_THE_ANCIENT.description": "このターン、次にプレイする{CallOfTheAncientPower:diff()}枚の[gold]供物[/gold]を持つカードは、[gold]供物[/gold]効果が追加で1回発動する。",
+
+  "THECURSEDMOD-HELP_OF_THE_DEAD.title": "死者の加護",
+  "THECURSEDMOD-HELP_OF_THE_DEAD.description": "[gold]供物[/gold] : [gold]山札[/gold]のカード1枚に[gold]リプレイ[/gold]を付与する。",
+  "THECURSEDMOD-HELP_OF_THE_DEAD.selectionScreenPrompt": "[gold]リプレイ[/gold]を付与するカードを選ぶ",
+
+  "THECURSEDMOD-DUBIOUS_CONTRACT.title": "怪しい契約",
+  "THECURSEDMOD-DUBIOUS_CONTRACT.description": "ターン開始時、ランダムな[gold]供物[/gold]を持つカードを1枚と、ランダムな[gold]呪い[/gold]を1枚[gold]手札[/gold]に加える。",
+
+  "THECURSEDMOD-NEOWS_MIGHT.title": "ネオーの威光",
+  "THECURSEDMOD-NEOWS_MIGHT.description": "カードを{Cards:diff()}枚引く。\nこのターン、[gold]手札[/gold]のすべてのカードのコストを1下げる。\n[gold]カルマ[/gold]{KarmaPower:diff()}。",
+
+  "THECURSEDMOD-FORBIDDEN_RELIC.title": "禁忌のレリック",
+  "THECURSEDMOD-FORBIDDEN_RELIC.description": "所持[gold]レリック[/gold]1つにつき{ExtraDamage:diff()}ダメージを与える。\n[gold]レリック[/gold]数に[gold]カルマ[/gold]を加算する。{InCombat:cond:\n({CalculatedDamage:diff()}ダメージを与える)|}",
+
+  "THECURSEDMOD-FORBIDDEN_ELIXIR.title": "禁忌のエリクサー",
+  "THECURSEDMOD-FORBIDDEN_ELIXIR.description": "ターン開始時、\n{Energy:energyIcons()}と[gold]カルマ[/gold]{KarmaEveryTurn:diff()}を得る。",
+
+  "THECURSEDMOD-MANA_BASTION.title": "魔法要塞",
+  "THECURSEDMOD-MANA_BASTION.description": "[gold]魔法陣[/gold]効果を発動するたび、{ManaBastionPower:diff()}[gold]ブロック[/gold]を得る。",
+
+  "THECURSEDMOD-BATTLEMAGE.title": "魔法剣士",
+  "THECURSEDMOD-BATTLEMAGE.description": "[gold]魔法陣[/gold]効果を発動するたび、[gold]活力[/gold]{BattlemagePower:diff()}を得る。",
+
+  "THECURSEDMOD-EXODIA_BEAM.title": "封印されし者の波動",
+  "THECURSEDMOD-EXODIA_BEAM.description": "[gold]手札[/gold]に5種類以上の[gold]魔法陣[/gold]がある場合のみプレイできる。\nすべての敵に{Damage:diff()}ダメージを与える。",
+
+  "THECURSEDMOD-WORLDLINE_TWIST.title": "ねじれた世界線",
+  "THECURSEDMOD-WORLDLINE_TWIST.description": "このターン中に発動した[gold]魔法陣[/gold]効果1回につき、コストが{Energy:energyIcons()}減少する。\nこのターン、[gold]カルマ[/gold]ダメージを受けない。",
+
+  "THECURSEDMOD-SPRING_CLEANING.title": "大掃除",
+  "THECURSEDMOD-SPRING_CLEANING.description": "{Block:diff()}[gold]ブロック[/gold]を得る。\n[gold]供物[/gold] : カードを{Cards:diff()}枚引く。",
+
+  "THECURSEDMOD-ARCHDEMON_SWORD.title": "大悪魔の剣",
+  "THECURSEDMOD-ARCHDEMON_SWORD.description": "{Damage:diff()}ダメージを与える。\n[gold]手札[/gold]にあるすべての[gold]呪い[/gold]を[gold]廃棄[/gold]する。[gold]廃棄[/gold]したカード1枚につき、[gold]筋力[/gold]{StrengthPower:diff()}を得る。\n[gold]カルマ[/gold]{KarmaPower:diff()}。"
+}

@@ -1,4 +1,5 @@
 using MegaCrit.Sts2.Core.Entities.Powers;
+using MegaCrit.Sts2.Core.HoverTips;
 using MegaCrit.Sts2.Core.Models.Powers;
 
 namespace TheCursedMod.TheCursedModCode.Powers;
@@ -13,4 +14,9 @@ public class ForbiddenFormPower : TheCursedModPower
     public override PowerType Type => PowerType.Buff;
 
     public override PowerStackType StackType => PowerStackType.Counter;
+    
+    protected override IEnumerable<IHoverTip> ExtraHoverTips => [
+        HoverTipFactory.FromKeyword(TheCursedModCode.Keywords.Rite),
+        HoverTipFactory.FromKeyword(TheCursedModCode.Keywords.Karma)
+    ];
 }

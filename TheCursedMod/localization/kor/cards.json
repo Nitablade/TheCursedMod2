@@ -143,7 +143,7 @@
   "THECURSEDMOD-MANA_CIRCULATION.description": "매 턴마다 처음으로 [gold]의례[/gold]의 효과가 발동될 경우, {Energy:energyIcons()}를 얻습니다.",
 
   "THECURSEDMOD-HELLFIRE_BREATHING.title": "지옥불 뿜기",
-  "THECURSEDMOD-HELLFIRE_BREATHING.description": "[gold]사용불가[/gold] 카드를 뽑을 때마다 모든 적에게 {HellfireBreathingPower:diff()} 피해를 줍니다.",
+  "THECURSEDMOD-HELLFIRE_BREATHING.description": "[gold]사용불가[/gold] 카드를 뽑을 때마다, 모든 적에게 피해를 {HellfireBreathingPower:diff()} 줍니다.",
 
   "THECURSEDMOD-DENYING_FATE.title": "운명 거부",
   "THECURSEDMOD-DENYING_FATE.description": "피해를 {Damage:diff()} 줍니다. 이번 턴에 피해를 받도록 예정된 [gold]업보[/gold]를 1턴 뒤로 미룹니다.",
@@ -200,7 +200,7 @@
   "THECURSEDMOD-ARCANE_DISCHARGE.description": "이번 전투에서 [gold]마법진[/gold]의 효과가 발동된 횟수의 {ExtraDamage:diff()}배만큼 모든 적에게 피해를 줍니다.{InCombat:cond:\n(피해를 {CalculatedDamage:diff()} 줍니다.)|}",
 
   "THECURSEDMOD-DOMAIN_EXPANSION.title": "영역 전개",
-  "THECURSEDMOD-DOMAIN_EXPANSION.description": "손에 있는 모든 [gold]마법진[/gold]의 효과를 조건을 무시하고 강제로 {IfUpgraded:show:X+1|X}번 발동시킵니다.\n{IfUpgraded:show:X+1|X}번 [gold]업보[/gold] {KarmaPower:diff()}.",
+  "THECURSEDMOD-DOMAIN_EXPANSION.description": "손에 있는 모든 [gold]마법진[/gold]의 효과를 조건을 무시하고 강제로 X{IfUpgraded:show:+1|}번 발동시킵니다.\nX{IfUpgraded:show:+1|}번 [gold]업보[/gold] {KarmaPower:diff()}.",
 
   "THECURSEDMOD-GRACE.title": "유예",
   "THECURSEDMOD-GRACE.description": "[gold]업보[/gold]로 인한 피해를 1턴 더 늦게 받습니다. 이 효과는 중복되지 않습니다.",

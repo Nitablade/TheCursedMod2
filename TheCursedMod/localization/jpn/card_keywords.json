@@ -1,0 +1,10 @@
+{
+  "THECURSEDMOD-RITE.title": "供物",
+  "THECURSEDMOD-RITE.description": "プレイ時、カードを1枚選んで[gold]廃棄[/gold]する。[gold]呪い[/gold]を選択した場合、追加の効果を発動する。",
+
+  "THECURSEDMOD-KARMA.title": "カルマ",
+  "THECURSEDMOD-KARMA.description": "次のターン終了時、等しい数値のダメージを受ける。",
+
+  "THECURSEDMOD-CIRCLE.title": "魔法陣",
+  "THECURSEDMOD-CIRCLE.description": "[gold]手札[/gold]にある時、他のカードをプレイすることで効果を発動する。"
+}

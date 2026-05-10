@@ -1,0 +1,16 @@
+{
+  "THECURSEDMOD-THE_CURSED_MOD.title": "カースド",
+  "THECURSEDMOD-THE_CURSED_MOD.titleObject": "カースド",
+  "THECURSEDMOD-THE_CURSED_MOD.description": "闇に飲まれた放浪者。\n[gold]呪い[/gold]と[gold]魔法陣[/gold]、そして[gold]カルマ[/gold]を持つ禁忌の武器を用いて戦う。",
+  "THECURSEDMOD-THE_CURSED_MOD.pronounObject": "彼",
+  "THECURSEDMOD-THE_CURSED_MOD.possessiveAdjective": "彼の",
+  "THECURSEDMOD-THE_CURSED_MOD.pronounPossessive": "彼の",
+  "THECURSEDMOD-THE_CURSED_MOD.pronounSubject": "彼",
+  "THECURSEDMOD-THE_CURSED_MOD.goldMonologue": "[sine]あらゆる金には代償が宿る。[/sine]",
+  "THECURSEDMOD-THE_CURSED_MOD.eventDeathPrevention": "呪いは、まだ我を逃がしてはくれぬ…",
+  "THECURSEDMOD-THE_CURSED_MOD.aromaPrinciple": "[sine][purple]他者からの扱いは他者へ帰り、他者への振舞いは自己へと帰る。[/purple][/sine]",
+  "THECURSEDMOD-THE_CURSED_MOD.cardsModifierTitle": "カースドのカード",
+  "THECURSEDMOD-THE_CURSED_MOD.cardsModifierDescription": "報酬やショップにカースドのカードが出現するようになる。",
+  "THECURSEDMOD-THE_CURSED_MOD.banter.alive.endTurnPing": "[sine]儀は完了した…[/sine]",
+  "THECURSEDMOD-THE_CURSED_MOD.banter.dead.endTurnPing": "……"
+}

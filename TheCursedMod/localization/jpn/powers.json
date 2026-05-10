@@ -1,0 +1,101 @@
+{
+  "THECURSEDMOD-CALL_OF_THE_ANCIENT_POWER.title": "エンシェントの呼び声",
+  "THECURSEDMOD-CALL_OF_THE_ANCIENT_POWER.description": "このターン、次にプレイする[gold]供物[/gold]を持つカードは、[gold]供物[/gold]効果が追加で1回発動する。",
+  "THECURSEDMOD-CALL_OF_THE_ANCIENT_POWER.smartDescription": "このターン、次にプレイする{Amount}枚の[gold]供物[/gold]を持つカードは、[gold]供物[/gold]効果が追加で1回発動する。",
+
+  "THECURSEDMOD-DUBIOUS_CONTRACT_POWER.title": "怪しい契約",
+  "THECURSEDMOD-DUBIOUS_CONTRACT_POWER.description": "ターン開始時、ランダムな[gold]供物[/gold]を持つカード1枚と、ランダムな[gold]呪い[/gold]を1枚[gold]手札[/gold]に加える。",
+  "THECURSEDMOD-DUBIOUS_CONTRACT_POWER.smartDescription": "ターン開始時、ランダムな[gold]供物[/gold]を持つカード{Amount}枚と、ランダムな[gold]呪い[/gold]を{Amount}枚[gold]手札[/gold]に加える。",
+
+  "THECURSEDMOD-RECYCLABLE_WASTE_POWER.title": "資源ゴミ",
+  "THECURSEDMOD-RECYCLABLE_WASTE_POWER.description": "この戦闘中、すべての[gold]瓦礫[/gold]は[gold]保留[/gold]を得る。",
+  "THECURSEDMOD-RECYCLABLE_WASTE_POWER.smartDescription": "この戦闘中、すべての[gold]瓦礫[/gold]は[gold]保留[/gold]を得る。",
+
+  "THECURSEDMOD-LUCKY_CHARM_POWER.title": "幸運のお守り",
+  "THECURSEDMOD-LUCKY_CHARM_POWER.description": "[gold]呪い[/gold]を引くか[gold]廃棄[/gold]するたび、[gold]ブロック[/gold]を得る。",
+  "THECURSEDMOD-LUCKY_CHARM_POWER.smartDescription": "[gold]呪い[/gold]を引くか[gold]廃棄[/gold]するたび、{Amount}[gold]ブロック[/gold]を得る。",
+
+  "THECURSEDMOD-MANA_CIRCULATION_POWER.title": "魔力の循環",
+  "THECURSEDMOD-MANA_CIRCULATION_POWER.description": "毎ターン、最初に[gold]供物[/gold]効果を発動した時、{energyPrefix}を得る。",
+  "THECURSEDMOD-MANA_CIRCULATION_POWER.smartDescription": "毎ターン、最初に[gold]供物[/gold]効果を発動した時、{Amount:energyIcons()}を得る。",
+
+  "THECURSEDMOD-ARCANE_MATRIX_POWER.title": "神秘のマトリックス",
+  "THECURSEDMOD-ARCANE_MATRIX_POWER.description": "[gold]魔法陣[/gold]を引くたび、{energyPrefix}を得て、カードを1枚引く。",
+  "THECURSEDMOD-ARCANE_MATRIX_POWER.smartDescription": "[gold]魔法陣[/gold]を引くたび、{Amount:energyIcons()}を得て、カードを{Amount}枚引く。",
+
+  "THECURSEDMOD-KARMA_TURN1_POWER.title": "カルマ",
+  "THECURSEDMOD-KARMA_TURN1_POWER.description": "このターン終了時、ダメージを受ける。",
+  "THECURSEDMOD-KARMA_TURN1_POWER.smartDescription": "このターン終了時、{Amount}ダメージを受ける。",
+
+  "THECURSEDMOD-KARMA_TURN2_POWER.title": "カルマ",
+  "THECURSEDMOD-KARMA_TURN2_POWER.description": "次のターン終了時、ダメージを受ける。",
+  "THECURSEDMOD-KARMA_TURN2_POWER.smartDescription": "次のターン終了時、{Amount}ダメージを受ける。",
+
+  "THECURSEDMOD-KARMA_TURN3_POWER.title": "カルマ",
+  "THECURSEDMOD-KARMA_TURN3_POWER.description": "次の次のターン終了時、ダメージを受ける。",
+  "THECURSEDMOD-KARMA_TURN3_POWER.smartDescription": "次の次のターン終了時、{Amount}ダメージを受ける。",
+
+  "THECURSEDMOD-GRACE_POWER.title": "猶予",
+  "THECURSEDMOD-GRACE_POWER.description": "[gold]カルマ[/gold]ダメージを1ターン遅らせる。",
+  "THECURSEDMOD-GRACE_POWER.smartDescription": "[gold]カルマ[/gold]ダメージを1ターン遅らせる。",
+
+  "THECURSEDMOD-HELLFIRE_BREATHING_POWER.title": "ヘルファイアブレス",
+  "THECURSEDMOD-HELLFIRE_BREATHING_POWER.description": "[gold]プレイ不可[/gold]を持つカードを引くたび、すべての敵に{Amount}ダメージを与える。",
+  "THECURSEDMOD-HELLFIRE_BREATHING_POWER.smartDescription": "[gold]プレイ不可[/gold]を持つカードを引くたび、すべての敵に{Amount}ダメージを与える。",
+
+  "THECURSEDMOD-ROLLING_OVER_DEBT_POWER.title": "滞納",
+  "THECURSEDMOD-ROLLING_OVER_DEBT_POWER.description": "ターン終了時、自身が[gold]カルマ[/gold]を持っている場合、[gold]ブロック[/gold]を得る。",
+  "THECURSEDMOD-ROLLING_OVER_DEBT_POWER.smartDescription": "ターン終了時、自身が[gold]カルマ[/gold]を持っている場合、{Amount}[gold]ブロック[/gold]を得る。",
+
+  "THECURSEDMOD-CYCLE_OF_DEPRAVITY_POWER.title": "悪循環",
+  "THECURSEDMOD-CYCLE_OF_DEPRAVITY_POWER.description": "ターン開始時、自身が[gold]カルマ[/gold]を持っている場合、カードを引く。",
+  "THECURSEDMOD-CYCLE_OF_DEPRAVITY_POWER.smartDescription": "ターン開始時、自身が[gold]カルマ[/gold]を持っている場合、カードを{Amount}枚引く。",
+
+  "THECURSEDMOD-FORBIDDEN_ELIXIR_POWER.title": "禁忌のエリクサー",
+  "THECURSEDMOD-FORBIDDEN_ELIXIR_POWER.description": "ターン開始時、{energyPrefix}を得る。",
+  "THECURSEDMOD-FORBIDDEN_ELIXIR_POWER.smartDescription": "ターン開始時、{Amount:energyIcons()}を得る。",
+
+  "THECURSEDMOD-TEAR_GRIMOIRE_POWER.title": "裂けた魔導書",
+  "THECURSEDMOD-TEAR_GRIMOIRE_POWER.description": "コストが{Energy:energyIcons()}以上のアタックは追加でプレイされる。",
+  "THECURSEDMOD-TEAR_GRIMOIRE_POWER.smartDescription": "コストが{Energy:energyIcons()}以上のアタックは追加で{Amount}回プレイされる。",
+
+  "THECURSEDMOD-KARMA_EVERY_TURN_POWER.title": "循環するカルマ",
+  "THECURSEDMOD-KARMA_EVERY_TURN_POWER.description": "ターン開始時、[gold]カルマ[/gold]を得る。",
+  "THECURSEDMOD-KARMA_EVERY_TURN_POWER.smartDescription": "ターン開始時、[gold]カルマ[/gold]{Amount}。",
+
+  "THECURSEDMOD-DIE_TOGETHER_POWER.title": "死なばもろとも",
+  "THECURSEDMOD-DIE_TOGETHER_POWER.description": "この戦闘中、[gold]カルマ[/gold]ダメージをすべての敵にも与える。",
+  "THECURSEDMOD-DIE_TOGETHER_POWER.smartDescription": "この戦闘中、[gold]カルマ[/gold]ダメージをすべての敵にも与える。",
+
+  "THECURSEDMOD-IGNORE_PAIN_POWER.title": "辛抱",
+  "THECURSEDMOD-IGNORE_PAIN_POWER.description": "このターン、[gold]カルマ[/gold]から受けるダメージが減少する。",
+  "THECURSEDMOD-IGNORE_PAIN_POWER.smartDescription": "このターン、[gold]カルマ[/gold]から受けるダメージが{Amount}%減少する。",
+
+  "THECURSEDMOD-SPIRIT_OFFERING_POWER.title": "霊的供物",
+  "THECURSEDMOD-SPIRIT_OFFERING_POWER.description": "毎ターン、初めて[gold]供物[/gold]効果を発動した時、[gold]筋力[/gold]を得る。",
+  "THECURSEDMOD-SPIRIT_OFFERING_POWER.smartDescription": "毎ターン、初めて[gold]供物[/gold]効果を発動した時、[gold]筋力[/gold]{Amount}を得る。",
+
+  "THECURSEDMOD-FORBIDDEN_FORM_POWER.title": "禁忌の形態",
+  "THECURSEDMOD-FORBIDDEN_FORM_POWER.description": "[gold]供物[/gold]効果を発動した時、次の[gold]カルマ[/gold]を持つアタックは追加のダメージを与える。",
+  "THECURSEDMOD-FORBIDDEN_FORM_POWER.smartDescription": "[gold]供物[/gold]効果を発動した時、次の[gold]カルマ[/gold]を持つアタックは追加で{Amount}%ダメージを与える。",
+
+  "THECURSEDMOD-MULTIPLY_NEXT_KARMA_ATTACK_POWER.title": "カルマアタック強化",
+  "THECURSEDMOD-MULTIPLY_NEXT_KARMA_ATTACK_POWER.description": "次の[gold]カルマ[/gold]を持つアタックは追加のダメージを与える。",
+  "THECURSEDMOD-MULTIPLY_NEXT_KARMA_ATTACK_POWER.smartDescription": "次の[gold]カルマ[/gold]を持つアタックは追加で{Amount}%ダメージを与える。",
+
+  "THECURSEDMOD-CIRCLE_RETAIN_POWER.title": "保留魔法陣",
+  "THECURSEDMOD-CIRCLE_RETAIN_POWER.description": "[gold]手札[/gold]の[gold]魔法陣[/gold]は、[gold]保留[/gold]を得る。",
+  "THECURSEDMOD-CIRCLE_RETAIN_POWER.smartDescription": "[gold]手札[/gold]の[gold]魔法陣[/gold]は、{Amount}ターンの間[gold]保留[/gold]を得る。",
+
+  "THECURSEDMOD-BATTLEMAGE_POWER.title": "魔法剣士",
+  "THECURSEDMOD-BATTLEMAGE_POWER.description": "[gold]魔法陣[/gold]効果を発動するたび、[gold]活力[/gold]を得る。",
+  "THECURSEDMOD-BATTLEMAGE_POWER.smartDescription": "[gold]魔法陣[/gold]効果を発動するたび、[gold]活力[/gold]{Amount}を得る。",
+
+  "THECURSEDMOD-MANA_BASTION_POWER.title": "魔法要塞",
+  "THECURSEDMOD-MANA_BASTION_POWER.description": "[gold]魔法陣[/gold]効果を発動するたび,[gold]ブロック[/gold]を得る。",
+  "THECURSEDMOD-MANA_BASTION_POWER.smartDescription": "[gold]魔法陣[/gold]効果を発動するたび,{Amount}[gold]ブロック[/gold]を得る。",
+
+  "THECURSEDMOD-WORLDLINE_TWIST_POWER.title": "ねじれた世界線",
+  "THECURSEDMOD-WORLDLINE_TWIST_POWER.description": "このターン、[gold]カルマ[/gold]ダメージを受けない。",
+  "THECURSEDMOD-WORLDLINE_TWIST_POWER.smartDescription": "このターン、[gold]カルマ[/gold]ダメージを受けない。"
+}

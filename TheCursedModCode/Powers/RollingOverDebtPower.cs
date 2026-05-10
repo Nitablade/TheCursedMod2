@@ -3,6 +3,7 @@ using MegaCrit.Sts2.Core.Commands;
 using MegaCrit.Sts2.Core.Entities.Players;
 using MegaCrit.Sts2.Core.Entities.Powers;
 using MegaCrit.Sts2.Core.GameActions.Multiplayer;
+using MegaCrit.Sts2.Core.HoverTips;
 using MegaCrit.Sts2.Core.ValueProps;
 
 namespace TheCursedMod.TheCursedModCode.Powers;
@@ -17,6 +18,11 @@ public class RollingOverDebtPower : TheCursedModPower
 
     public override PowerStackType StackType => PowerStackType.Counter;
     
+    protected override IEnumerable<IHoverTip> ExtraHoverTips => [
+        HoverTipFactory.FromKeyword(TheCursedModCode.Keywords.Karma),
+        HoverTipFactory.Static(StaticHoverTip.Block)
+    ];
+
     public override Task AfterPlayerTurnStart(PlayerChoiceContext choiceContext, Player player)
     {
         if (player != base.Owner.Player) return Task.CompletedTask;

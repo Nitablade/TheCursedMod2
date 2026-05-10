@@ -40,8 +40,8 @@
   "THECURSEDMOD-GRACE_POWER.smartDescription": "[gold]업보[/gold]로 인한 피해를 1턴 더 늦게 받습니다.",
 
   "THECURSEDMOD-HELLFIRE_BREATHING_POWER.title": "지옥불 뿜기",
-  "THECURSEDMOD-HELLFIRE_BREATHING_POWER.description": "[gold]사용불가[/gold] 카드를 뽑을 때마다 모든 적에게 {Amount} 피해를 줍니다.",
-  "THECURSEDMOD-HELLFIRE_BREATHING_POWER.smartDescription": "[gold]사용불가[/gold] 카드를 뽑을 때마다 모든 적에게 {Amount} 피해를 줍니다.",
+  "THECURSEDMOD-HELLFIRE_BREATHING_POWER.description": "[gold]사용불가[/gold] 카드를 뽑을 때마다, 모든 적에게 피해를 {Amount} 줍니다.",
+  "THECURSEDMOD-HELLFIRE_BREATHING_POWER.smartDescription": "[gold]사용불가[/gold] 카드를 뽑을 때마다, 모든 적에게 피해를 {Amount} 줍니다.",
 
   "THECURSEDMOD-ROLLING_OVER_DEBT_POWER.title": "돌려 막기",
   "THECURSEDMOD-ROLLING_OVER_DEBT_POWER.description": "[gold]업보[/gold]가 있다면, 내 턴 종료 시 [gold]방어도[/gold]를 얻습니다.",
