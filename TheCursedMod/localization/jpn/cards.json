@@ -200,7 +200,7 @@
   "THECURSEDMOD-ARCANE_DISCHARGE.description": "すべての敵に、この戦闘中に[gold]魔法陣[/gold]効果が発動した回数の{ExtraDamage:diff()}倍のダメージを与える。{InCombat:cond:\n({CalculatedDamage:diff()}ダメージを与える)|}",
 
   "THECURSEDMOD-DOMAIN_EXPANSION.title": "領域拡張",
-  "THECURSEDMOD-DOMAIN_EXPANSION.description": "[gold]手札[/gold]にある[gold]魔法陣[/gold]すべての効果を、条件を問わず{IfUpgraded:show:X+1|X}回発動させる。\n[gold]カルマ[/gold]{KarmaPower:diff()}{IfUpgraded:show:X+1|X}",
+  "THECURSEDMOD-DOMAIN_EXPANSION.description": "[gold]手札[/gold]にある[gold]魔法陣[/gold]すべての効果を、条件を問わずX{IfUpgraded:show:+1|}回発動させる。\n[gold]カルマ[/gold]{KarmaPower:diff()}X{IfUpgraded:show:+1|}。",
 
   "THECURSEDMOD-GRACE.title": "猶予",
   "THECURSEDMOD-GRACE.description": "[gold]カルマ[/gold]ダメージを1ターン遅らせる。この効果は重複できない。",
@@ -249,7 +249,7 @@
   "THECURSEDMOD-NEOWS_MIGHT.description": "カードを{Cards:diff()}枚引く。\nこのターン、[gold]手札[/gold]のすべてのカードのコストを1下げる。\n[gold]カルマ[/gold]{KarmaPower:diff()}。",
 
   "THECURSEDMOD-FORBIDDEN_RELIC.title": "禁忌のレリック",
-  "THECURSEDMOD-FORBIDDEN_RELIC.description": "所持[gold]レリック[/gold]1つにつき{ExtraDamage:diff()}ダメージを与える。\n[gold]レリック[/gold]数に[gold]カルマ[/gold]を加算する。{InCombat:cond:\n({CalculatedDamage:diff()}ダメージを与える。)|}",
+  "THECURSEDMOD-FORBIDDEN_RELIC.description": "所持[gold]レリック[/gold]1つにつき{ExtraDamage:diff()}ダメージを与える。\n[gold]レリック[/gold]数に[gold]カルマ[/gold]を加算する。{InCombat:cond:\n({CalculatedDamage:diff()}ダメージを与える)|}",
 
   "THECURSEDMOD-FORBIDDEN_ELIXIR.title": "禁忌のエリクサー",
   "THECURSEDMOD-FORBIDDEN_ELIXIR.description": "ターン開始時、\n{Energy:energyIcons()}と[gold]カルマ[/gold]{KarmaEveryTurn:diff()}を得る。",

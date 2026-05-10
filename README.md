@@ -39,6 +39,8 @@ Simplified Chinese translation by 璨
 
 Russian translation by Kassia, Nitablade
 
+Japanese translation by RTRTRTS
+
 ## Credit (AI)
 Grok Imagine (card images)
 

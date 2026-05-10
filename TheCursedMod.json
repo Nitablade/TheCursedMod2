@@ -3,7 +3,7 @@
   "name": "The Cursed",
   "author": "jhp109",
   "description": "A wanderer corrupted by darkness. Uses curse, magic circle, and sometimes forbidden weapons that bring karma.",
-  "version": "v0.2.6",
+  "version": "v0.2.7",
   "has_pck": true,
   "has_dll": true,
   "dependencies": ["BaseLib"],
