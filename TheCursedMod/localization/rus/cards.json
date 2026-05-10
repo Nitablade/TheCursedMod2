@@ -66,7 +66,7 @@
   "THECURSEDMOD-SMOKESCREEN.description": "Дает {Block:diff()} [gold]защиты[/gold].\n[gold]Обряд[/gold]:\nНакладывает {WeakPower:diff()} [gold]слабости[/gold] на ВСЕХ врагов.",
 
   "THECURSEDMOD-ASHES_TO_ASHES.title": "Прах к праху",
-  "THECURSEDMOD-ASHES_TO_ASHES.description": "[gold]Обряд[/gold]:\nВы добираете {Cards:diff()} карты.",
+  "THECURSEDMOD-ASHES_TO_ASHES.description": "[gold]Обряд[/gold]:\nВы добираете {Cards:diff()} {Cards:plural(ru):карту|карты|карт}.",
 
   "THECURSEDMOD-REPENTANCE.title": "Покаяние",
   "THECURSEDMOD-REPENTANCE.description": "Дает {Block:diff()} [gold]защиты[/gold].\nЕсли у вас есть [gold]Карма[/gold], вместо этого дает {KarmaBlock:diff()} [gold]защиты[/gold].",
@@ -200,7 +200,7 @@
   "THECURSEDMOD-ARCANE_DISCHARGE.description": "Наносит урон ВСЕМ врагам, равный количеству срабатываний эффектов [gold]Круга[/gold] в этом бою × {ExtraDamage:diff()}.{InCombat:cond:\n(Наносит {CalculatedDamage:diff()} урона)|}",
 
   "THECURSEDMOD-DOMAIN_EXPANSION.title": "Расширение домена",
-  "THECURSEDMOD-DOMAIN_EXPANSION.description": "Активирует эффект каждого [gold]Круга[/gold] в вашей [gold]руке[/gold] X{IfUpgraded:show:+1|} раз, игнорируя их условия.\nВы получаете {KarmaPower:diff()} [gold]Кармы[/gold] X{IfUpgraded:show:+1|} раз.",
+  "THECURSEDMOD-DOMAIN_EXPANSION.description": "Активирует эффект каждого [gold]Круга[/gold] в вашей [gold]руке[/gold] {IfUpgraded:show:X+1|X} раз, игнорируя их условия.\nВы получаете {KarmaPower:diff()} [gold]Кармы[/gold] X{IfUpgraded:show:+1|} раз.",
 
   "THECURSEDMOD-GRACE.title": "Отсрочить судьбу",
   "THECURSEDMOD-GRACE.description": "Урон от [gold]Кармы[/gold] откладывается на еще 1 ход. Этот эффект не суммируется.",
